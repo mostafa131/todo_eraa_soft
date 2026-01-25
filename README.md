@@ -23,4 +23,4 @@ samples, guidance on mobile development, and a full API reference.
 
 ### Screenshot two
 
-![Home Screen 2](images/Screenshot 2026-01-25 035313.png)
+![Home Screen 2](images/home_screen.png)
