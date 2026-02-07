@@ -25,17 +25,17 @@ samples, guidance on mobile development, and a full API reference.
 
 ![Home Screen 2](images/home_screen.png)
 
-### Screenshot three
+#### Screenshot three
 
-![Home Screen 2](images/Screenshot 1.png)
-
-
-### Screenshot four
-
-![Home Screen 2](images/Screenshot 2.png)
+![Home Screen 2](images/Screenshot1.png)
 
 
-### Screenshot five
+##### Screenshot four
 
-![Home Screen 2](images/Screenshot 3.png)
+![Home Screen 2](images/Screenshot2.png)
+
+
+###### Screenshot five
+
+![Home Screen 2](images/Screenshot3.png)
 
