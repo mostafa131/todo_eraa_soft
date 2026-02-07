@@ -1,3 +1,6 @@
+
+
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -9,22 +12,19 @@ class CustomAppButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
-      style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.indigo,
-        minimumSize: Size(double.infinity, 60.h),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12.r),
-        ),
-      ),
-      onPressed: onPressed,
-      child: Text(
-        title,
-        style: TextStyle(
-          color: Colors.white,
-          fontSize: 20.sp,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
-    );
+        style:ElevatedButton.styleFrom(
+            backgroundColor:Colors.indigo,
+            minimumSize: Size(double.infinity, 60.h),
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12.r)
+            )
+        )
+        ,onPressed: onPressed, child: Text(title,
+
+      style: TextStyle(
+        color: Colors.white,
+        fontSize: 20.sp,
+        fontWeight: FontWeight.bold,
+      ),textAlign: TextAlign.center, ));
   }
 }
