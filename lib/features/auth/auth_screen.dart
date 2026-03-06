@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:todo_app/core/app_contstans.dart';
 import 'package:todo_app/core/widgets/custom_app_button.dart';
 import 'package:todo_app/core/widgets/custom_text_form_filed.dart';
 import 'package:todo_app/features/auth/models/user_model.dart';
 import 'package:todo_app/features/home/home_screen.dart';
 
+import '../../core/app_contstans.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
@@ -114,6 +114,8 @@ class _AuthScreenState extends State<AuthScreen> {
                 });
               },
             ),
+
+
           ],
         ),
       ) ,
